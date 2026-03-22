@@ -599,16 +599,14 @@
             }
           },
           {
-            "text": ["[Ee]ncounter"],
-            "tag": ["enc"],
+            "buildql_query": "text = \"encounter\"",
             "level": {
               "min": 0,
               "max": 3
             }
           },
           {
-            "text": ["[Tt]reachery"],
-            "tag": ["trc"],
+            "buildql_query": "text = \"treachery\"",
             "level": {
               "min": 0,
               "max": 3
@@ -631,9 +629,9 @@
         "skill_combat": 2,
         "skill_intellect": 2,
         "skill_willpower": 5,
-        "subname": "[REDACTED]",
+        "subname": "/[REDACTED/]",
         "text": "Reduce the difficulty of skill tests you perform while resolving revelation abilities on encounter cards by 1.\n[reaction] When a player card causes you draw a non-weakness encounter card: Cancel all of that card's effects and place it on the bottom of the encounter deck. Then, draw another card from the top of the encounter deck. (Limit once per round).\n[elder_sign]: +1. Place 1 resource on Out of Sight as a fragment.",
-        "traits": "[REDACTED]. Civic.",
+        "traits": "/[REDACTED/]. Civic.",
         "type_code": "investigator",
         "image_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/player-cards/card-images/40034.png",
         "thumbnail_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/player-cards/card-images/40034-thumb.png",
@@ -1141,7 +1139,7 @@
         "flavor": "",
         "illustrator": "",
         "is_unique": false,
-        "name": "<\"Drinks on me!\"",
+        "name": "\"Drinks on me!\"",
         "pack_code": "TSoA_investigators",
         "position": 23,
         "quantity": 1,
@@ -1333,8 +1331,8 @@
         "quantity": 1,
         "restrictions": "investigator:TSoA-Investigator-034",
         "subname": "And out of mind.",
-        "text": "John Smith deck only. Permanent. Uses (1 fragment).\n[reaction] After you resolve an encounter card: Place 1 fragment on Out of Sight.\n[free] Spend 2 fragments and exhaust Out of Sight: Shuffle one of you set-aside  [REDACTED] cards into the top 8 cards of the encounter deck.\n<b>Forced</b> When a [REDACTED] card you own would be discarded from anywhere: Set it aside, out of play, instead.",
-        "traits": "[REDACTED]",
+        "text": "John Smith deck only. Permanent. Uses (1 fragment).\n[reaction] After you resolve an encounter card: Place 1 fragment on Out of Sight.\n[free] Spend 2 fragments and exhaust Out of Sight: Shuffle one of you set-aside  /[REDACTED/] cards into the top 8 cards of the encounter deck.\n<b>Forced</b> When a /[REDACTED/] card you own would be discarded from anywhere: Set it aside, out of play, instead.",
+        "traits": "/[REDACTED/]",
         "type_code": "asset",
         "xp": null,
         "image_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/player-cards/card-images/40035.jpg",
@@ -1343,22 +1341,18 @@
       {
         "code": "TSoA-Investigator-036",
         "deck_limit": 2,
-        "enemy_damage": 0,
-        "enemy_evade": 2,
-        "enemy_fight": 2,
-        "enemy_horror": 1,
         "faction_code": "neutral",
         "flavor": "",
-        "health": 1,
         "illustrator": "Mark Kingsnorth",
         "name": "Fading Existence",
         "pack_code": "TSoA_investigators",
         "position": 36,
         "quantity": 2,
         "restrictions": "investigator:TSoA-Investigator-034",
-        "text": "Hunter. Surge.\n<spa> You may place a non-weakness, non-<b><i>Elite</i></b> enemy at any location on the bottom of the encounter deck and spawn Fading Existence at that location. Otherwise, discard Fading Existence.\n<For> When Fading Existence would be discarded: John Smith discovers 1 clue at John Smith's location.",
-        "traits": "Fractured. [REDACTED]",
-        "type_code": "enemy",
+        "subtype_code": "weakness",
+        "text": "Surge.\n<b>Revelation</b> If there are no enemies in play, John Smith discovers 1 clue at their location. Otherwise, choose a Non-<b><i>Elite</i></b> enemy. Exhaust that enemy and attached Fading Existence to it.\nAttached enemy loses all keywords and gets -1 health (to a minimum of 1).\n<b>Forced</b> After you defeat attached enemy: Discover 1 clue at your location.",
+        "traits": "Fractured. /[REDACTED/]",
+        "type_code": "treachery",
         "image_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/player-cards/card-images/40036.jpg",
         "thumbnail_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/player-cards/card-images/40036-thumb.jpg"
       },
@@ -1375,7 +1369,7 @@
         "restrictions": "investigator:TSoA-Investigator-034",
         "subtype_code": "weakness",
         "text": "Surge.\n<b>Revelation</b> Choose and resolve up to 2 of the following, in any order:\n-  Choose and discard from play a non-weakness treachery that is not attached to an <b><i>Elite</i></b> enemy.\n-  Heal 1 damage or 1 horror.\n-  Move to John Smith's Location.",
-        "traits": "Power. [REDACTED]",
+        "traits": "Power. /[REDACTED/]",
         "type_code": "treachery",
         "image_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/player-cards/card-images/40037.jpg",
         "thumbnail_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/player-cards/card-images/40037-thumb.jpg"
