@@ -15,7 +15,7 @@
   },
   "data": {
     "cards": [
-	  {
+      {
         "back_flavor": "",
         "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Guardian ([guardian]) level 0-4, Neutral cards level 0-5, Survivor ([survivor]) cards level 0-2, up to 5 other Rogue cards ([rogue]) level 0.\n<b>Deckbuilding Requirements</b> (do not count toward deck size)</b>:Size Up, Ricochet, \"This is a Stickup\", 1 Random Basic Weakness.\n<b>Additional Setup:</b> You begin each game with Ricochet as an additional card in your opening hand.",
         "code": "Misfits-001",
@@ -76,24 +76,24 @@
         "back_image_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_001b.png",
         "back_thumbnail_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_001b-thumb.png"
       },
-	  {
+      {
         "back_flavor": "",
         "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Seeker cards ([seeker]) level 0-5, Neutral cards level 0-5, <b><i>Ritual</i></b> cards level 0-2, up to 5 other level 0 event cards that say \"<b>Investigate</b>\".\n<b>Deckbuilding Requirements</b> (do not count toward deck size)</b>:Unraveling the Cosmos, Peer Review, 1 random basic weakness.",
         "code": "Misfits-002",
         "deck_limit": 1,
         "deck_options": [
-		  {
+          {
             "not": true,
             "trait": ["science"],
-			"level": {
-				"min": 1,
-				"max": 5
-			}
-		  },
-		  {
-			"not": true,
+            "level": {
+              "min": 1,
+              "max": 5
+            }
+          },
+          {
+            "not": true,
             "trait": ["miskatonic"],
-			"unique": true
+            "unique": true
           },
           {
             "faction": ["neutral"],
@@ -117,7 +117,7 @@
             }
           },
           {
-			"text": ["Investigate."],
+            "text": ["Investigate."],
             "level": {
               "min": 0,
               "max": 0
@@ -152,7 +152,65 @@
       },
       {
         "back_flavor": "",
-        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Survivor cards ([survivor]) level 0-5, Neutral cards level 0-5, <b><i>Spririt</i></b> cards level 0-2, up to 5 other Guardian cards ([guardian]) level 0.\n<b>Deckbuilding Requirements</b> (do not count toward deck size)</b>:Bravado, \"Till We Meet Again...\", 1 random basic weakness.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Mystic cards ([mystic]) level 0-5, Neutral cards level 0-5, Seeker <b><i>Insight</i></b> and <b><i>Spell</i></b> cards ([seeker]) level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size)</b>:Bravado, \"Till We Meet Again...\", 1 random basic weakness.",
+        "code": "Misfits-004",
+        "deck_limit": 1,
+        "deck_options": [
+          {
+            "faction": ["neutral"],
+            "level": {
+              "min": 0,
+              "max": 5
+            }
+          },
+          {
+            "faction": ["mystic"],
+            "level": {
+              "min": 0,
+              "max": 3
+            }
+          },
+          {
+            "trait": ["insight"],
+            "faction": ["seeker"],
+            "level": {
+              "min": 0,
+              "max": 5
+            }
+          },
+          {
+            "trait": ["spell"],
+            "faction": ["seeker"],
+            "level": {
+              "min": 0,
+              "max": 5
+            }
+          }
+        ],
+        "deck_requirements": "size:30, card:Misfits-013, card:Misfits-013, card:Misfits-014, random:subtype:basicweakness",
+        "double_sided": true,
+        "faction_code": "mystic",
+        "flavor": "",
+        "health": 5,
+        "illustrator": "",
+        "is_unique": true,
+        "name": "Biggy Smalls",
+        "pack_code": "Misfits_investigators",
+        "position": 4,
+        "quantity": 1,
+        "sanity": 9,
+        "skill_agility": 3,
+        "skill_combat": 3,
+        "skill_intellect": 5,
+        "skill_willpower": 1,
+        "subname": "The Medium",
+        "text": "[reaction] After you play an <b><i>Insight</i></b> card: Resolve an [action] on a <b><i>Spell</i></b> asset you control. If you would test your [will], test your [int] instead. (Limit once per round.)\n[elder_sign] effect: +0. If you succeed: Reduce the cost of the next <b><i>Insight</i></b> card you play by 2.",
+        "traits": "Performer. Sorcerer?",
+        "type_code": "investigator"
+      },
+      {
+        "back_flavor": "",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Survivor cards ([survivor]) level 0-5, Neutral cards level 0-5, <b><i>Spirit</i></b> cards level 0-2, up to 5 other Guardian cards ([guardian]) level 0.\n<b>Deckbuilding Requirements</b> (do not count toward deck size)</b>:Bravado, \"Till We Meet Again...\", 1 random basic weakness.",
         "code": "Misfits-005",
         "deck_limit": 1,
         "deck_options": [
@@ -211,7 +269,7 @@
         "back_image_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_005b.png",
         "back_thumbnail_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_005b-thumb.png"
       },
-	  {
+      {
         "code": "Misfits-006",
         "cost": 0,
         "deck_limit": 1,
@@ -232,7 +290,7 @@
         "image_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_006.jpg",
         "thumbnail_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_006-thumb.jpg"
       },
-	  {
+      {
         "code": "Misfits-007",
         "deck_limit": 1,
         "faction_code": "neutral",
@@ -251,7 +309,7 @@
         "image_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_007.jpg",
         "thumbnail_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_007-thumb.jpg"
       },
-	  {
+      {
         "code": "Misfits-008",
         "cost": 1,
         "deck_limit": 1,
@@ -265,7 +323,7 @@
         "quantity": 1,
         "restrictions": "investigator:Misfits-002",
         "skill_intellect": 1,
-		"skill_wild": 1,
+        "skill_wild": 1,
         "text": "Charleston deck only.\n<b>Investigate.</b> Add your [willpower] value to your skill value for this investigation. If you succeed, instead of discovering clues, place up to 2 charges on <b><i>Ritual</i></b> assets controlled by investigators at your location.",
         "traits": "Ritual. Science?",
         "type_code": "event",
@@ -273,7 +331,7 @@
         "image_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_008.jpg",
         "thumbnail_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_008-thumb.jpg"
       },
-	  {
+      {
         "code": "Misfits-009",
         "deck_limit": 1,
         "faction_code": "neutral",
@@ -293,6 +351,39 @@
         "thumbnail_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_009-thumb.jpg"
       },
       {
+        "code": "Misfits-013",
+        "deck_limit": 2,
+        "faction_code": "neutral",
+        "flavor": "",
+        "illustrator": "",
+        "is_unique": false,
+        "name": "\"Aura\" Reading",
+        "pack_code": "Misfits_investigators",
+        "position": 13,
+        "quantity": 2,
+        "restrictions": "investigator:Misfits-004",
+        "text": "Fast. Play only during your turn.\nAttach to an asset you control.\nAttached asset gains the <b><i>Spell</i></b> trait and may treat any number of it's required slots as arcane slots. While resolving a triggered ability on attached asset, you get +1 skill value.",
+        "traits": "Insight. Trick.",
+        "type_code": "event"
+      },
+      {
+        "code": "Misfits-014",
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "flavor": "Elder this. Ancient that. What a load of nonsense.",
+        "illustrator": "",
+        "is_unique": false,
+        "name": "Elder Gaze",
+        "pack_code": "Misfits_investigators",
+        "position": 9,
+        "quantity": 1,
+        "restrictions": "investigator:Misfits-004",
+        "subtype_code": "weakness",
+        "text": "<b>Revelation -</b> <rev> Put Elder Gaze into play in your threat area.\n<b>Forced -</b> After a skill test ends, during which the [elder_sign] token was revealed: Spend 1 charge from an asset you control or take 1 horror.\n[reaction] After Biggy Smalls succeeds a [willpower] test: Discard Elder Gaze.",
+        "traits": "Hardship.",
+        "type_code": "treachery"
+      },
+      {
         "code": "Misfits-015",
         "cost": null,
         "deck_limit": 1,
@@ -302,10 +393,10 @@
         "is_unique": false,
         "name": "Bravado",
         "pack_code": "Misfits_investigators",
-		"permanent": true,
+        "permanent": true,
         "position": 15,
         "quantity": 1,
-		"restrictions": "investigator:Misfits-005",
+        "restrictions": "investigator:Misfits-005",
         "text": "Permanent. Tom Richards deck only.\n<b>Forced -</b> When you are dealt damage from an enemy attack, place 1 of that damage on Bravado.\n[reaction] When you attempt to attack or evade an enemy: That enemy gains retaliate and alert for the duration of this skill test. If you succeed, move 1 damage from Bravado to that enemy.\n<b>Forced -</b> At the end of the investigator phase, move all damage on Bravado to Tom Richards.",
         "traits": "Talent.",
         "type_code": "asset",
