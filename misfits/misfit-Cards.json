@@ -190,11 +190,11 @@
         "deck_requirements": "size:30, card:Misfits-013, card:Misfits-013, card:Misfits-014, random:subtype:basicweakness",
         "double_sided": true,
         "faction_code": "mystic",
-        "flavor": "",
+        "flavor": "\"I can hear it, the voice of your... Father? Brother? Grandfather? Yes, your grandfather is here with us.\"",
         "health": 5,
         "illustrator": "",
         "is_unique": true,
-        "name": "Biggy Smalls",
+        "name": "Mihnea Ionesco",
         "pack_code": "Misfits_investigators",
         "position": 4,
         "quantity": 1,
@@ -204,9 +204,13 @@
         "skill_intellect": 5,
         "skill_willpower": 1,
         "subname": "The Medium",
-        "text": "[reaction] After you play an <b><i>Insight</i></b> card: Resolve an [action] on a <b><i>Spell</i></b> asset you control. If you would test your [will], test your [int] instead. (Limit once per round.)\n[elder_sign] effect: +0. If you succeed: Reduce the cost of the next <b><i>Insight</i></b> card you play by 2.",
+        "text": "[reaction] After you play an <b><i>Insight</i></b> event: Play a <b><i>Spell</i></b> card or resolve an [action] on a <b><i>Spell</i></b> asset you control. If you would test your [willpower], test your [intellect] instead. (Limit once per round.)\n[elder_sign] effect: +1. If you succeed: Reduce the cost of the next <b><i>Insight</i></b> card you play this round by 2.",
         "traits": "Performer. Sorcerer?",
-        "type_code": "investigator"
+        "type_code": "investigator",
+		"image_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_004.png",
+        "thumbnail_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_004-thumb.png",
+        "back_image_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_004b.png",
+        "back_thumbnail_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_004b-thumb.png"
       },
       {
         "back_flavor": "",
@@ -364,7 +368,10 @@
         "restrictions": "investigator:Misfits-004",
         "text": "Fast. Play only during your turn.\nAttach to an asset you control.\nAttached asset gains the <b><i>Spell</i></b> trait and may treat any number of it's required slots as arcane slots. While resolving a triggered ability on attached asset, you get +1 skill value.",
         "traits": "Insight. Trick.",
-        "type_code": "event"
+        "type_code": "event",
+		"xp": null,
+		"image_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_010.jpg",
+        "thumbnail_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_010-thumb.jpg"
       },
       {
         "code": "Misfits-014",
@@ -381,7 +388,9 @@
         "subtype_code": "weakness",
         "text": "<b>Revelation -</b> <rev> Put Elder Gaze into play in your threat area.\n<b>Forced -</b> After a skill test ends, during which the [elder_sign] token was revealed: Spend 1 charge from an asset you control or take 1 horror.\n[reaction] After Biggy Smalls succeeds a [willpower] test: Discard Elder Gaze.",
         "traits": "Hardship.",
-        "type_code": "treachery"
+        "type_code": "treachery",
+		"image_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_011.jpg",
+        "thumbnail_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_011-thumb.jpg"
       },
       {
         "code": "Misfits-015",
