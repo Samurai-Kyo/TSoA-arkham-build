@@ -370,8 +370,8 @@
         "traits": "Insight. Trick.",
         "type_code": "event",
 		"xp": null,
-		"image_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_010.jpg",
-        "thumbnail_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_010-thumb.jpg"
+		"image_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_013.jpg",
+        "thumbnail_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_013-thumb.jpg"
       },
       {
         "code": "Misfits-014",
@@ -389,8 +389,8 @@
         "text": "<b>Revelation -</b> <rev> Put Elder Gaze into play in your threat area.\n<b>Forced -</b> After a skill test ends, during which the [elder_sign] token was revealed: Spend 1 charge from an asset you control or take 1 horror.\n[reaction] After Biggy Smalls succeeds a [willpower] test: Discard Elder Gaze.",
         "traits": "Hardship.",
         "type_code": "treachery",
-		"image_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_011.jpg",
-        "thumbnail_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_011-thumb.jpg"
+		"image_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_014.jpg",
+        "thumbnail_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_014-thumb.jpg"
       },
       {
         "code": "Misfits-015",
