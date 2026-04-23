@@ -471,8 +471,17 @@
               "max": 5
             }
           },
+		  {
+            "text": ["succeed.*[0-9] or more"],
+            "tag": ["rs"],
+            "level": {
+              "min": 0,
+              "max": 3
+            },
+            "type": ["event", "skill"]
+          },
           {
-            "text": ["[Gg]ain "],
+            "text": ["[Gg]ain.*[Rr]esource"],
             "tag": ["rs"],
             "level": {
               "min": 0,

@@ -1,450 +1,433 @@
 {
-  "meta": {
-    "code": "Misfits",
-    "name": "Misfits",
-    "description": "An unofficial fan-made investigator expansion.",
-    "author": "Kyo",
-    "language": "en",
-    "external_link": "",
-    "banner_url": "",
-    "types": ["investigators"],
-    "date_release": "2025-11-12T00:00:00.000Z",
-    "status": "final",
-    "date_updated": "2025-11-12T00:00:00.000Z",
-    "generator": "AD 1.5, AHLCG plugin 9.0, Strange Eons 3.4a3"
-  },
-  "data": {
-    "cards": [
-      {
-        "back_flavor": "",
-        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Guardian ([guardian]) level 0-4, Neutral cards level 0-5, Survivor ([survivor]) cards level 0-2, up to 5 other Rogue cards ([rogue]) level 0.\n<b>Deckbuilding Requirements</b> (do not count toward deck size)</b>:Size Up, Ricochet, \"This is a Stickup\", 1 Random Basic Weakness.\n<b>Additional Setup:</b> You begin each game with Ricochet as an additional card in your opening hand.",
-        "code": "Misfits-001",
-        "deck_limit": 1,
-        "deck_options": [
-          {
-            "faction": ["neutral"],
-            "level": {
-              "min": 0,
-              "max": 5
-            }
-          },
-          {
-            "faction": ["guardian"],
-            "level": {
-              "min": 0,
-              "max": 4
-            }
-          },
-          {
-            "trait": ["survivor"],
-            "level": {
-              "min": 0,
-              "max": 2
-            }
-          },
-          {
-            "faction": ["rogue"],
-            "level": {
-              "min": 0,
-              "max": 0
-            },
-            "limit": 5
-          }
-        ],
-        "deck_requirements": "size:30, card:Misfits-006, card:Misfits-007, card:Misfits-008, random:subtype:basicweakness",
-        "double_sided": true,
-        "faction_code": "guardian",
-        "flavor": "\"That's 'Ranger Kane' to you.\"",
-        "health": 8,
-        "illustrator": "",
-        "is_unique": true,
-        "name": "Luther Kane",
-        "pack_code": "Misfits_investigators",
-        "position": 1,
-        "quantity": 1,
-        "sanity": 7,
-        "skill_agility": 3,
-        "skill_combat": 4,
-        "skill_intellect": 2,
-        "skill_willpower": 3,
-        "subname": "The \"Ranger\"",
-        "text": "You get +1 skill value for tests you perform, except during the mythos phase and your turn.\n [free] Spend an action. Ignore this cost if you have forfeited or lost an action this round. Cannot be used during an action: Perform an action as if it were your turn. (Limit once per round.)\n[elder_sign] +0. If it is not your turn, +2 instead and draw 1 card.",
-        "traits": "Hunter. Performer. Police?",
-        "type_code": "investigator",
-        "image_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_001.png",
-        "thumbnail_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_001-thumb.png",
-        "back_image_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_001b.png",
-        "back_thumbnail_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_001b-thumb.png"
-      },
-      {
-        "back_flavor": "",
-        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Seeker cards ([seeker]) level 0-5, Neutral cards level 0-5, <b><i>Ritual</i></b> cards level 0-2, up to 5 other level 0 event cards that say \"<b>Investigate</b>\".\n<b>Deckbuilding Requirements</b> (do not count toward deck size)</b>:Unraveling the Cosmos, Peer Review, 1 random basic weakness.",
-        "code": "Misfits-002",
-        "deck_limit": 1,
-        "deck_options": [
-          {
-            "not": true,
-            "trait": ["science"],
-            "level": {
-              "min": 1,
-              "max": 5
-            }
-          },
-          {
-            "not": true,
-            "trait": ["miskatonic"],
-            "unique": true
-          },
-          {
-            "faction": ["neutral"],
-            "level": {
-              "min": 0,
-              "max": 5
-            }
-          },
-          {
-            "faction": ["seeker"],
-            "level": {
-              "min": 0,
-              "max": 5
-            }
-          },
-          {
-            "trait": ["Ritual"],
-            "level": {
-              "min": 0,
-              "max": 2
-            }
-          },
-          {
-            "text": ["Investigate."],
-            "level": {
-              "min": 0,
-              "max": 0
-            },
-            "limit": 5
-          }
-        ],
-        "deck_requirements": "size:30, card:Misfits-008, card:Misfits-009, random:subtype:basicweakness",
-        "double_sided": true,
-        "faction_code": "seeker",
-        "flavor": "",
-        "health": 8,
-        "illustrator": "",
-        "is_unique": true,
-        "name": "Charleston",
-        "pack_code": "Misfits_investigators",
-        "position": 2,
-        "quantity": 1,
-        "sanity": 6,
-        "skill_agility": 3,
-        "skill_combat": 3,
-        "skill_intellect": 1,
-        "skill_willpower": 5,
-        "subname": "The Pseudo-Scientist",
-        "text": "[reaction] After an investigation is successful while you are resolving an event: Discover 2 clues at your location. (Limit once per round.)\n[elder_sign] effect: +1. You may shuffle an \"<b>Investigate</b>\" event from your discard pile into your deck.",
-        "traits": "Civic.",
-        "type_code": "investigator",
-        "image_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_002.png",
-        "thumbnail_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_002-thumb.png",
-        "back_image_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_002b.png",
-        "back_thumbnail_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_002b-thumb.png"
-      },
-      {
-        "back_flavor": "",
-        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Mystic cards ([mystic]) level 0-5, Neutral cards level 0-5, Seeker <b><i>Insight</i></b> and <b><i>Spell</i></b> cards ([seeker]) level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size)</b>:Bravado, \"Till We Meet Again...\", 1 random basic weakness.",
-        "code": "Misfits-004",
-        "deck_limit": 1,
-        "deck_options": [
-          {
-            "faction": ["neutral"],
-            "level": {
-              "min": 0,
-              "max": 5
-            }
-          },
-          {
-            "faction": ["mystic"],
-            "level": {
-              "min": 0,
-              "max": 3
-            }
-          },
-          {
-            "trait": ["insight"],
-            "faction": ["seeker"],
-            "level": {
-              "min": 0,
-              "max": 5
-            }
-          },
-          {
-            "trait": ["spell"],
-            "faction": ["seeker"],
-            "level": {
-              "min": 0,
-              "max": 5
-            }
-          }
-        ],
-        "deck_requirements": "size:30, card:Misfits-013, card:Misfits-013, card:Misfits-014, random:subtype:basicweakness",
-        "double_sided": true,
-        "faction_code": "mystic",
-        "flavor": "\"I can hear it, the voice of your... Father? Brother? Grandfather? Yes, your grandfather is here with us.\"",
-        "health": 5,
-        "illustrator": "",
-        "is_unique": true,
-        "name": "Mihnea Ionesco",
-        "pack_code": "Misfits_investigators",
-        "position": 4,
-        "quantity": 1,
-        "sanity": 9,
-        "skill_agility": 3,
-        "skill_combat": 3,
-        "skill_intellect": 5,
-        "skill_willpower": 1,
-        "subname": "The Medium",
-        "text": "[reaction] After you play an <b><i>Insight</i></b> event: Play a <b><i>Spell</i></b> card or resolve an [action] on a <b><i>Spell</i></b> asset you control. If you would test your [willpower], test your [intellect] instead. (Limit once per round.)\n[elder_sign] effect: +1. If you succeed: Reduce the cost of the next <b><i>Insight</i></b> card you play this round by 2.",
-        "traits": "Performer. Sorcerer?",
-        "type_code": "investigator",
-		"image_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_004.png",
-        "thumbnail_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_004-thumb.png",
-        "back_image_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_004b.png",
-        "back_thumbnail_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_004b-thumb.png"
-      },
-      {
-        "back_flavor": "",
-        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Survivor cards ([survivor]) level 0-5, Neutral cards level 0-5, <b><i>Spirit</i></b> cards level 0-2, up to 5 other Guardian cards ([guardian]) level 0.\n<b>Deckbuilding Requirements</b> (do not count toward deck size)</b>:Bravado, \"Till We Meet Again...\", 1 random basic weakness.",
-        "code": "Misfits-005",
-        "deck_limit": 1,
-        "deck_options": [
-          {
-            "faction": ["neutral"],
-            "level": {
-              "min": 0,
-              "max": 5
-            }
-          },
-          {
-            "faction": ["survivor"],
-            "level": {
-              "min": 0,
-              "max": 5
-            }
-          },
-          {
-            "trait": ["spirit"],
-            "level": {
-              "min": 0,
-              "max": 2
-            }
-          },
-          {
-            "faction": ["guardian"],
-            "level": {
-              "min": 0,
-              "max": 0
-            },
-            "limit": 5
-          }
-        ],
-        "deck_requirements": "size:35, card:Misfits-0015, card:Misfits-0016, random:subtype:basicweakness",
-        "double_sided": true,
-        "faction_code": "survivor",
-        "flavor": "\"Ahahaha!\"\n\"Can someone shut this guy up!\"",
-        "health": 9,
-        "illustrator": "",
-        "is_unique": true,
-        "name": "Tom Richards",
-        "pack_code": "Misfits_investigators",
-        "position": 1,
-        "quantity": 1,
-        "sanity": 6,
-        "skill_agility": 3,
-        "skill_combat": 5,
-        "skill_intellect": 2,
-        "skill_willpower": 2,
-        "subname": "The Overconfident",
-        "text": "[reaction] After you deal excess damage to an enemy: Heal 1 horror. (Limit once per round.)\n[elder_sign] effect: +0. If you are engaged with an enemy, heal 1 damage. Otherwise, heal 1 horror.",
-        "traits": "Warden.",
-        "type_code": "investigator",
-        "image_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_005.png",
-        "thumbnail_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_005-thumb.png",
-        "back_image_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_005b.png",
-        "back_thumbnail_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_005b-thumb.png"
-      },
-      {
-        "code": "Misfits-006",
-        "cost": 0,
-        "deck_limit": 1,
-        "faction_code": "neutral",
-        "flavor": "\"Just... Just as I planned! HA! HA! HA!\"",
-        "illustrator": "Evgeny Loginov",
-        "is_unique": false,
-        "name": "Ricochet",
-        "pack_code": "Misfits_investigators",
-        "position": 6,
-        "quantity": 1,
-        "restrictions": "investigator:Misfits-001",
-        "skill_agility": 1,
-        "text": "Luther Kane deck only. Fast. Play when you would fail a skill test on a <b><i>Firearm</i></b> asset.\nCancel this attack. Deal 1 damage to an enemy at your location or a connecting location. Draw 1 card and shuffle Ricochet into your deck.",
-        "traits": "Tactic. Blunder?",
-        "type_code": "event",
-        "xp": null,
-        "image_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_006.jpg",
-        "thumbnail_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_006-thumb.jpg"
-      },
-      {
-        "code": "Misfits-007",
-        "deck_limit": 1,
-        "faction_code": "neutral",
-        "flavor": "",
-        "illustrator": "",
-        "is_unique": false,
-        "name": "\"This is a Stickup\"",
-        "pack_code": "Misfits_investigators",
-        "position": 3,
-        "quantity": 1,
-        "restrictions": "investigator:Misfits-001",
-        "subtype_code": "weakness",
-        "text": "<b>Revelation -</b> Search the encounter deck for the non-<b><i>Elite</i></b> enemy with the highest fight value. Attach \"This is a Stickup\" to it and spawn it engaged with you.\nThe attached enemy does not make attacks of opportunity.\n<b>Forced -</b> At the end of the enemy phase, discard the <b><i>Item</i></b> asset you control with the highest printed cost and shuffle the enemy \"This is a Stickup\" is attached to into the encounter deck.",
-        "traits": "Blunder.",
-        "type_code": "treachery",
-        "image_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_007.jpg",
-        "thumbnail_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_007-thumb.jpg"
-      },
-      {
-        "code": "Misfits-008",
-        "cost": 1,
-        "deck_limit": 1,
-        "faction_code": "neutral",
-        "flavor": "",
-        "illustrator": "",
-        "is_unique": false,
-        "name": "Unraveling the Cosmos",
-        "pack_code": "Misfits_investigators",
-        "position": 8,
-        "quantity": 1,
-        "restrictions": "investigator:Misfits-002",
-        "skill_intellect": 1,
-        "skill_wild": 1,
-        "text": "Charleston deck only.\n<b>Investigate.</b> Add your [willpower] value to your skill value for this investigation. If you succeed, instead of discovering clues, place up to 2 charges on <b><i>Ritual</i></b> assets controlled by investigators at your location.",
-        "traits": "Ritual. Science?",
-        "type_code": "event",
-        "xp": null,
-        "image_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_008.jpg",
-        "thumbnail_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_008-thumb.jpg"
-      },
-      {
-        "code": "Misfits-009",
-        "deck_limit": 1,
-        "faction_code": "neutral",
-        "flavor": "",
-        "illustrator": "",
-        "is_unique": false,
-        "name": "Peer Review",
-        "pack_code": "Misfits_investigators",
-        "position": 9,
-        "quantity": 1,
-        "restrictions": "investigator:Misfits-002",
-        "subtype_code": "weakness",
-        "text": "<b>Revelation -</b> <rev> Put Peer Review into play in your threat area.\n<b>Forced -</b> After you play an event, place 1 resource on Peer Review. If Peer Review has at least 4 resources in it, take 1 direct horror and shuffle Peer Review back into your deck.",
-        "traits": "Hardship.",
-        "type_code": "treachery",
-        "image_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_009.jpg",
-        "thumbnail_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_009-thumb.jpg"
-      },
-      {
-        "code": "Misfits-013",
-        "deck_limit": 2,
-        "faction_code": "neutral",
-        "flavor": "",
-        "illustrator": "",
-        "is_unique": false,
-        "name": "\"Aura\" Reading",
-        "pack_code": "Misfits_investigators",
-        "position": 13,
-        "quantity": 2,
-        "restrictions": "investigator:Misfits-004",
-        "text": "Fast. Play only during your turn.\nAttach to an asset you control.\nAttached asset gains the <b><i>Spell</i></b> trait and may treat any number of it's required slots as arcane slots. While resolving a triggered ability on attached asset, you get +1 skill value.",
-        "traits": "Insight. Trick.",
-        "type_code": "event",
-		"xp": null,
-		"image_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_013.jpg",
-        "thumbnail_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_013-thumb.jpg"
-      },
-      {
-        "code": "Misfits-014",
-        "deck_limit": 1,
-        "faction_code": "neutral",
-        "flavor": "Elder this. Ancient that. What a load of nonsense.",
-        "illustrator": "",
-        "is_unique": false,
-        "name": "Elder Gaze",
-        "pack_code": "Misfits_investigators",
-        "position": 9,
-        "quantity": 1,
-        "restrictions": "investigator:Misfits-004",
-        "subtype_code": "weakness",
-        "text": "<b>Revelation -</b> <rev> Put Elder Gaze into play in your threat area.\n<b>Forced -</b> After a skill test ends, during which the [elder_sign] token was revealed: Spend 1 charge from an asset you control or take 1 horror.\n[reaction] After Biggy Smalls succeeds a [willpower] test: Discard Elder Gaze.",
-        "traits": "Hardship.",
-        "type_code": "treachery",
-		"image_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_014.jpg",
-        "thumbnail_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_014-thumb.jpg"
-      },
-      {
-        "code": "Misfits-015",
-        "cost": null,
-        "deck_limit": 1,
-        "faction_code": "neutral",
-        "flavor": "",
-        "illustrator": "",
-        "is_unique": false,
-        "name": "Bravado",
-        "pack_code": "Misfits_investigators",
-        "permanent": true,
-        "position": 15,
-        "quantity": 1,
-        "restrictions": "investigator:Misfits-005",
-        "text": "Permanent. Tom Richards deck only.\n<b>Forced -</b> When you are dealt damage from an enemy attack, place 1 of that damage on Bravado.\n[reaction] When you attempt to attack or evade an enemy: That enemy gains retaliate and alert for the duration of this skill test. If you succeed, move 1 damage from Bravado to that enemy.\n<b>Forced -</b> At the end of the investigator phase, move all damage on Bravado to Tom Richards.",
-        "traits": "Talent.",
-        "type_code": "asset",
-        "xp": null,
-        "image_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_015.jpg",
-        "thumbnail_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_015-thumb.jpg"
-      },
-      {
-        "code": "Misfits-016",
-        "deck_limit": 1,
-        "faction_code": "neutral",
-        "flavor": "\"Then the skies will seem more blue...\"",
-        "illustrator": "",
-        "is_unique": false,
-        "name": "\"Till We Meet Again...\"",
-        "pack_code": "Misfits_investigators",
-        "position": 16,
-        "quantity": 1,
-        "restrictions": "investigator:Misfits-005",
-        "subtype_code": "weakness",
-        "text": "<b>Revelation -</b> The nearest Non-<b><i>Elite</i></b> enemy readies, moves directly to your location, engages you, and makes an immediate attack. Damage dealt this way cannot be placed on Bravado. That enemy gains retaliate and alert for the remainder of the round. If no enemy engaged you this way, put \"Till We Meet Again...\" into play in your threat area.\nYou get -2 sanity.",
-        "traits": "Hardship.",
-        "type_code": "treachery",
-        "image_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_016.jpg",
-        "thumbnail_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_016-thumb.jpg"
-      }
-    ],
-    "encounter_sets": [
-      {
-        "code": "Misfits_encounter",
-        "name": "Misfits"
-      }
-    ],
-    "packs": [
-      {
-        "code": "Misfits_investigators",
+    "meta": {
+        "code": "Misfits",
         "name": "Misfits",
-        "date_release": "2025-11-12"
-      }
-    ]
-  }
+        "description": "An unofficial fan-made investigator expansion.",
+        "author": "Kyo",
+        "language": "en",
+        "external_link": "",
+        "banner_url": "",
+        "banner_credit": "",
+        "types": [
+            "investigators"
+        ],
+        "status": "beta",
+        "date_updated": "2026-04-23T17:29:50.2000793",
+        "generator": "Zoop 3.5, AHLCG plugin 9.0, Strange Eons 3.4\u03b13 (4421)"
+    },
+    "data": {
+        "cards": [
+            {
+                "back_name": "Luther Kane",
+                "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Guardian cards ([guardian]) level 0-4, Survivor ([survivor]) level cards 0-2, up to 5 other Rogue cards ([rogue]) level 0.\n<b>Deckbuilding Requirements</hdr> (do not count toward deck size)<hdr></b>: Ricochet, \"This is a Stickup\", 1 Random Basic Weakness.\n<b>Additional Setup</b>: You begin each game with Ricochet as an additional card in your opening hand.",
+                "code": "599affbe-ad0a-49fa-ad21-66ff1181cb6c",
+                "deck_requirements": "size:30, card:46127bd6-9f0a-4174-9926-4d2d02d10c50, card:e5ba2ea8-2c78-4f39-8c06-39f59422d850, random:subtype:basicweakness",
+                "deck_options": [
+                    {
+                        "faction": [
+                            "neutral"
+                        ],
+                        "level": {
+                            "min": 0,
+                            "max": 5
+                        }
+                    },
+                    {
+                        "faction": [
+                            "guardian"
+                        ],
+                        "level": {
+                            "min": 0,
+                            "max": 4
+                        }
+                    },
+                    {
+                        "faction": [
+                            "survivor"
+                        ],
+                        "level": {
+                            "min": 0,
+                            "max": 2
+                        }
+                    },
+                    {
+                        "faction": [
+                            "rogue"
+                        ],
+                        "level": {
+                            "min": 0,
+                            "max": 0
+                        },
+                        "limit": 5
+                    }
+                ],
+                "deck_limit": 1,
+                "double_sided": true,
+                "faction_code": "guardian",
+                "flavor": "\"That's 'Ranger Kane' to you.\"",
+                "health": 8,
+                "illustrator": "Ricardo Padierne Silvera",
+                "is_unique": true,
+                "name": "Luther Kane",
+                "pack_code": "Misfits",
+                "position": 1,
+                "quantity": 1,
+                "sanity": 7,
+                "skill_agility": 3,
+                "skill_combat": 4,
+                "skill_intellect": 2,
+                "skill_willpower": 3,
+                "subname": "The \"Ranger\"",
+                "text": "You get +1 skill value for tests you perform, except during the mythos phase and your turn.\n[free] Spend an action. Ignore this cost if you have forfeited or lost an action this round. Cannot be used during an action: Perform an action as if it were your turn. (Limit once per round.)\n     \n[elder_sign] effect: +0. If it is not your turn, +2 instead and draw 1 card.",
+                "traits": "Hunter. Performer. Police?",
+                "type_code": "investigator",
+                "image_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_1.png",
+                "thumbnail_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_1-thumb.png",
+                "back_image_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_1b.png",
+                "back_thumbnail_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_1b-thumb.png"
+            },
+            {
+                "back_name": "Charleston Briers",
+                "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Seeker cards ([seeker]) level 0-5, <b><i>Ritual</i></b> cards level 0-2, Neutral cards level 0-5, up to five other level 0 events that \"<b>Investigate</b>\".\n<b>Deckbuilding Requirements</hdr> (do not count toward deck size)<hdr></b>: Unraveling the Cosmos, Peer Review, 1 Random Basic Weakness.\n<b>Deckbuilding Restrictions</b>: No <b><i>Science</i></b> cards level 1-5 or unique <b><i>Miskatonic</i></b> cards.",
+                "code": "0bb9b4eb-7483-4439-8cf9-c382c402403d",
+                "deck_requirements": "size:30, card:ad156c40-4930-45cd-8f35-52a629432a55, card:b6a094e6-2c03-4f27-ac26-f22dd815cf4c, random:subtype:basicweakness",
+                "deck_options": [
+                    {
+                        "faction": [
+                            "neutral",
+                            "seeker"
+                        ],
+                        "level": {
+                            "min": 0,
+                            "max": 5
+                        }
+                    },
+                    {
+                        "level": {
+                            "min": 0,
+                            "max": 2
+                        },
+                        "trait": [
+                            "Ritual"
+                        ]
+                    },
+                    {
+                        "level": {
+                            "min": 0,
+                            "max": 0
+                        },
+                        "limit": 5,
+                        "text_exact": [
+                            "Investigate."
+                        ],
+                        "type": [
+                            "event"
+                        ]
+                    }
+                ],
+                "deck_limit": 1,
+                "double_sided": true,
+                "faction_code": "seeker",
+                "health": 8,
+                "is_unique": true,
+                "name": "Charleston Briers",
+                "pack_code": "Misfits",
+                "position": 2,
+                "quantity": 1,
+                "sanity": 6,
+                "skill_agility": 3,
+                "skill_combat": 3,
+                "skill_intellect": 1,
+                "skill_willpower": 5,
+                "subname": "The Pseudo-Scientist",
+                "text": "[reaction] After an investigation is successful while you are resolving an event: Discover 2 clues at your location. (Limit once per round.)\n     \n[elder_sign] +1. You may shuffle an \"<b>Investigate</b>\" event from your discard pile into your deck.",
+                "traits": "Civic.",
+                "type_code": "investigator",
+                "image_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_2.png",
+                "thumbnail_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_2-thumb.png",
+                "back_image_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_2b.png",
+                "back_thumbnail_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_2b-thumb.png"
+            },
+            {
+                "back_name": "Mihnea Ionesco",
+                "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Mystic cards ([mystic]) level 0-3, Neutral cards level 0-5, Seeker <b><i>Spell</i></b> and <b><i>Insight</i></b> cards ([seeker]) level 0-5.\n<b>Deckbuilding Requirements</hdr> (do not count toward deck size)<hdr></b>: 2 Smoke and Mirrors, Elder Gaze, 1 random basic weakness.",
+                "code": "46f0f661-2c64-4c58-aef4-2615861fdfb3",
+                "deck_requirements": "size:30, card:1b8bcb95-0ba1-4337-a8cf-f3ecbeacf598, card:3cfcfa3e-438b-4bbf-91b1-10838871d18c, random:subtype:basicweakness",
+                "deck_options": [
+                    {
+                        "faction": [
+                            "neutral"
+                        ],
+                        "level": {
+                            "min": 0,
+                            "max": 5
+                        }
+                    },
+                    {
+                        "faction": [
+                            "mystic"
+                        ],
+                        "level": {
+                            "min": 0,
+                            "max": 3
+                        }
+                    },
+                    {
+                        "faction": [
+                            "seeker"
+                        ],
+                        "level": {
+                            "min": 0,
+                            "max": 5
+                        },
+                        "trait": [
+                            "Spell",
+                            "Insight"
+                        ]
+                    }
+                ],
+                "deck_limit": 1,
+                "double_sided": true,
+                "faction_code": "mystic",
+                "flavor": "\"I can hear it, the voice of your... Father? Brother? Grandfather? Yes, your grandfather is here with us.\"",
+                "health": 5,
+                "is_unique": true,
+                "name": "Mihnea Ionesco",
+                "pack_code": "Misfits",
+                "position": 4,
+                "quantity": 1,
+                "sanity": 9,
+                "skill_agility": 3,
+                "skill_combat": 3,
+                "skill_intellect": 5,
+                "skill_willpower": 1,
+                "subname": "The \"Medium\"",
+                "text": "[reaction] After you play an <b><i>Insight</i></b> event: Play a <b><i>Spell</i></b> card or resolve an [action] ability on a <b><i>Spell</i></b> asset you control. If you would test your [willpower], test your [intellect] instead. (Limit once per round.)\n[elder_sign] +1. If you succeed: Reduce the cost of the next <b><i>Insight</i></b> or <b><i>Spell</i></b> card you play this round by 2.",
+                "traits": "Performer. Sorcerer?",
+                "type_code": "investigator",
+                "image_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_4.png",
+                "thumbnail_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_4-thumb.png",
+                "back_image_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_4b.png",
+                "back_thumbnail_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_4b-thumb.png"
+            },
+            {
+                "back_name": "Thomas Richards",
+                "back_text": "<b>Deck Size</b>: 35.\n<b>Deckbuilding Options</b>: Survivor cards ([survivor]) level 0-5, Neutral cards level 0-5, <b><i>Spirit</i></b> cards level 0-2, up to 5 other Guardian cards ([guardian]) cards level 0.\n<b>Deckbuilding Requirements</hdr> (do not count toward deck size)<hdr></b>: Bravado, \"Till We Meet Again...\", 1 random basic weakness.",
+                "code": "deee5ce1-867b-4fdc-a64f-d5d57e522565",
+                "deck_requirements": "size:35, card:30a66da8-125c-4979-8c77-ac360f5db672, card:6462d7a5-82ee-4031-a219-c581b07d2553, random:subtype:basicweakness",
+                "deck_options": [
+                    {
+                        "faction": [
+                            "neutral",
+                            "survivor"
+                        ],
+                        "level": {
+                            "min": 0,
+                            "max": 5
+                        }
+                    },
+                    {
+                        "level": {
+                            "min": 0,
+                            "max": 2
+                        },
+                        "trait": [
+                            "Spirit"
+                        ]
+                    },
+                    {
+                        "faction": [
+                            "guardian"
+                        ],
+                        "level": {
+                            "min": 0,
+                            "max": 0
+                        },
+                        "limit": 5
+                    }
+                ],
+                "deck_limit": 1,
+                "double_sided": true,
+                "faction_code": "survivor",
+                "flavor": "\"Ahahaha!\"\n\"Can someone shut this guy up!\"",
+                "health": 9,
+                "illustrator": "Vamkire Trannel",
+                "is_unique": true,
+                "name": "Thomas Richards",
+                "pack_code": "Misfits",
+                "position": 5,
+                "quantity": 1,
+                "sanity": 6,
+                "skill_agility": 3,
+                "skill_combat": 5,
+                "skill_intellect": 2,
+                "skill_willpower": 2,
+                "subname": "The Overconfident ",
+                "text": "[reaction] After you deal excess damage to an enemy: Heal 1 horror. (Limit once per round.)\n[elder_sign] +0. If you are engaged with an enemy, deal it 1 damage. Otherwise, heal 1 horror.",
+                "traits": "Warden.",
+                "type_code": "investigator",
+                "image_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_5.png",
+                "thumbnail_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_5-thumb.png",
+                "back_image_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_5b.png",
+                "back_thumbnail_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_5b-thumb.png"
+            },
+            {
+                "code": "46127bd6-9f0a-4174-9926-4d2d02d10c50",
+                "cost": 0,
+                "deck_limit": 1,
+                "faction_code": "neutral",
+                "flavor": "Just... Just as I planned! HA! HA! HA!",
+                "illustrator": "Evgeny Loginov",
+                "name": "Ricochet",
+                "pack_code": "Misfits",
+                "position": 6,
+                "quantity": 1,
+                "restrictions": "investigator:599affbe-ad0a-49fa-ad21-66ff1181cb6c",
+                "skill_wild": 1,
+                "text": "Luther Kane deck only. Fast. Play when you would fail a skill test on a <b><i>Firearm</i></b> asset.\nCancel this attack. Deal 1 damage to an enemy at your location or a connecting location. Draw 1 card and shuffle Ricochet into your deck.",
+                "traits": "Tactic. Blunder?",
+                "type_code": "event",
+                "image_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_6.jpg",
+                "thumbnail_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_6-thumb.jpg"
+            },
+            {
+                "code": "e5ba2ea8-2c78-4f39-8c06-39f59422d850",
+                "deck_limit": 1,
+                "faction_code": "neutral",
+                "illustrator": "Robin Boer",
+                "name": "\"This is a Stickup\"",
+                "pack_code": "Misfits",
+                "position": 7,
+                "quantity": 1,
+                "restrictions": "investigator:599affbe-ad0a-49fa-ad21-66ff1181cb6c",
+                "subtype_code": "weakness",
+                "text": "<b>Revelation</b> - Search the encounter deck for the non-<b><i>Elite</i></b> enemy with the highest fight value. Attach \"This is a Stickup\" to it and spawn it engaged with you.\nThe attached enemy does not make attacks of opportunity.\n     \n<b>Forced</b> - At the end of the enemy phase, discard the <b><i>Item</i></b> asset you control with the highest printed cost and shuffle the enemy \"This is a Stickup\" is attached to into the encounter deck.",
+                "traits": "Blunder.",
+                "type_code": "treachery",
+                "image_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_7.jpg",
+                "thumbnail_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_7-thumb.jpg"
+            },
+            {
+                "code": "b6a094e6-2c03-4f27-ac26-f22dd815cf4c",
+                "cost": 1,
+                "deck_limit": 1,
+                "faction_code": "neutral",
+                "name": "Unraveling the Cosmos",
+                "pack_code": "Misfits",
+                "position": 8,
+                "quantity": 1,
+                "restrictions": "investigator:0bb9b4eb-7483-4439-8cf9-c382c402403d",
+                "skill_intellect": 1,
+                "skill_wild": 1,
+                "text": "Charleston Briers deck only.\n<b>Investigate.</b> Add your [willpower] value to your skill value for this investigation. If you succeed, instead of discovering clues, place up to 2 charges on <b><i>Ritual</i></b> assets controlled by investigators at your location.",
+                "traits": "Ritual. Science?",
+                "type_code": "event",
+                "image_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_8.jpg",
+                "thumbnail_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_8-thumb.jpg"
+            },
+            {
+                "code": "ad156c40-4930-45cd-8f35-52a629432a55",
+                "deck_limit": 1,
+                "faction_code": "neutral",
+                "name": "Peer Review",
+                "pack_code": "Misfits",
+                "position": 9,
+                "quantity": 1,
+                "restrictions": "investigator:0bb9b4eb-7483-4439-8cf9-c382c402403d",
+                "subtype_code": "weakness",
+                "text": "<b>Revelation</b> - Put Peer Review into play in your threat area.\n<b>Forced</b> - After you play an event, place 1 resource on Peer Review. If Peer Review has at least 4 resources in it, take 1 direct horror and shuffle Peer Review back into your deck.",
+                "traits": "Hardship.",
+                "type_code": "treachery",
+                "image_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_9.jpg",
+                "thumbnail_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_9-thumb.jpg"
+            },
+            {
+                "code": "1b8bcb95-0ba1-4337-a8cf-f3ecbeacf598",
+                "cost": 1,
+                "deck_limit": 2,
+                "faction_code": "neutral",
+                "illustrator": "Gabriel Bulik XIX",
+                "name": "Smoke and Mirrors",
+                "pack_code": "Misfits",
+                "position": 12,
+                "quantity": 2,
+                "restrictions": "investigator:46f0f661-2c64-4c58-aef4-2615861fdfb3",
+                "skill_intellect": 1,
+                "skill_willpower": 1,
+                "text": "Mihnea Ionesco deck only. Fast. Play only during your turn.\nAttach to an <b><i>Item</i></b> asset you control. Limit 1 per asset.\n     \nAttached asset gains the <b><i>Spell</i></b> trait and may treat any number of it's required slots as arcane slots. While resolving a triggered ability on attached asset, you get +1 skill value.",
+                "traits": "Insight. Trick.",
+                "type_code": "event",
+                "image_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_12.jpg",
+                "thumbnail_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_12-thumb.jpg"
+            },
+            {
+                "code": "3cfcfa3e-438b-4bbf-91b1-10838871d18c",
+                "deck_limit": 1,
+                "faction_code": "neutral",
+                "flavor": "Elder this. Ancient that. What a load of nonsense.",
+                "illustrator": "Erskine Designs",
+                "name": "Eldritch Gaze",
+                "pack_code": "Misfits",
+                "position": 13,
+                "quantity": 1,
+                "restrictions": "investigator:46f0f661-2c64-4c58-aef4-2615861fdfb3",
+                "subtype_code": "weakness",
+                "text": "<b>Revelation</b> - Put Eldritch Gaze into play in your threat area.\n<b>Forced</b> - After a skill test at your location ends, during which the [elder_sign] or [auto_fail] token was revealed: Spend 1 charge from an asset you control or take 1 horror.\n     \n[action] Test [willpower] (3): If you succeed, discard Eldritch Gaze. If you fail, shuffle it into your deck. ",
+                "traits": "Omen. Endtimes.",
+                "type_code": "treachery",
+                "image_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_13.jpg",
+                "thumbnail_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_13-thumb.jpg"
+            },
+            {
+                "code": "6462d7a5-82ee-4031-a219-c581b07d2553",
+                "deck_limit": 1,
+                "faction_code": "neutral",
+                "illustrator": "Justin Murray",
+                "is_unique": true,
+                "name": "Bravado",
+                "pack_code": "Misfits",
+                "permanent": true,
+                "position": 14,
+                "quantity": 1,
+                "restrictions": "investigator:deee5ce1-867b-4fdc-a64f-d5d57e522565",
+                "text": "Permanent. Tom Richards deck only.\n<b>Forced</b> - When you are dealt damage from an enemy attack, place 1 of that damage on Bravado.\n     \n[reaction] When you attempt to attack or evade an enemy: That enemy gains retaliate and alert for the duration of this skill test. If you succeed, move 1 damage from Bravado to that enemy.\n     \n<b>Forced</b> - At the end of the investigator phase, move all damage on Bravado to Tom Richards.",
+                "traits": "Talent.",
+                "type_code": "asset",
+                "image_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_14.jpg",
+                "thumbnail_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_14-thumb.jpg"
+            },
+            {
+                "code": "30a66da8-125c-4979-8c77-ac360f5db672",
+                "deck_limit": 1,
+                "faction_code": "neutral",
+                "flavor": "\"Then the skies will seem more blue...\"",
+                "illustrator": "Lee Bermejo",
+                "name": "\"Till We Meet Again...\"",
+                "pack_code": "Misfits",
+                "position": 15,
+                "quantity": 1,
+                "restrictions": "investigator:deee5ce1-867b-4fdc-a64f-d5d57e522565",
+                "subtype_code": "weakness",
+                "text": "<b>Revelation</b> - The nearest Non-<b><i>Elite</i></b> enemy readies, moves directly to your location, engages you, and makes an immediate attack. Damage dealt this way cannot be placed on Bravado. That enemy gains retaliate and alert for the remainder of the round. If no enemy engaged you this way, put \"Till We Meet Again...\" into play in your threat area.\n     \nYou get -2 sanity.",
+                "traits": "Hardship.",
+                "type_code": "treachery",
+                "image_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_15.jpg",
+                "thumbnail_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_15-thumb.jpg"
+            }
+        ],
+        "encounter_sets": [
+            {
+                "code": "Misfits_encounter",
+                "name": "Misfits"
+            }
+        ],
+        "packs": [
+            {
+                "code": "Misfits",
+                "name": "Misfits",
+                "date_release": "2026-04-23",
+                "icon_url": "file:/C:/Users/People/Documents/TSoA/Misfits-collection-icon.png"
+            }
+        ]
+    }
 }
