@@ -471,24 +471,14 @@
               "max": 5
             }
           },
-		  {
-            "text": ["succeed.*[0-9] or more"],
-            "tag": ["rs"],
-            "level": {
-              "min": 0,
-              "max": 3
-            },
-            "type": ["event", "skill"]
-          },
-          {
-            "text": ["[Gg]ain.*[Rr]esource"],
-            "tag": ["rs"],
-            "level": {
-              "min": 0,
-              "max": 3
-            },
-            "type": ["event", "skill"]
-          }
+			{
+			"text": [ "[Gg]ain.*esource", "succ.*[0-9] or more"],
+			"level": {
+			  "min": 0,
+			  "max": 3
+			},
+			"type": ["event", "skill"]
+		  }
         ],
         "deck_requirements": "size:30, card:TSoA-Investigator-029, card:TSoA-Investigator-030, random:subtype:basicweakness",
         "double_sided": true,
@@ -1114,7 +1104,7 @@
         "skill_wild": 1,
         "skill_willpower": 1,
         "subname": "Worth a Million Words",
-        "text": "Elise Collnis deck only. Uses (2 secrets).\n[reaction] After you succeed the test on a copy of A Sight to See, place 1 secret on Photo Album.\n[free] Spend 2 secrets and exhaust Photo Album: Shuffle 1 event from your discard into your deck.",
+        "text": "Elise Collnis deck only. Uses (2 secrets).\n[reaction] After you succeed the test on a copy of A Sight to See, place 1 secret on Photo Album.\n[free] Spend 2 secrets and exhaust Photo Album: Shuffle 1 level 0 event from your discard into your deck. Draw 1 card.",
         "traits": "Item. Tome.",
         "type_code": "asset",
         "xp": null,
@@ -1134,7 +1124,7 @@
         "quantity": 1,
         "restrictions": "investigator:TSoA-Investigator-017",
         "subtype_code": "weakness",
-        "text": "<b>Revelation</b> Put this card into play in your threat area.\nYou cannot play events unless you have taken a move action this round.\n[action] Discard 2 copies of A Sight to See: Discard A World Of Solitude",
+        "text": "<b>Revelation</b> Put this card into play in your threat area.\nYou cannot play events.\n[action][action] Discard 2 events from your hand: Discard A World Of Solitude. Gain 1 additional action if a copy of A Sight to See was discarded this way.",
         "traits": "Madness.",
         "type_code": "treachery",
         "image_url": "https://Samurai-Kyo.github.io/TSoA-arkham-build/player-cards/card-images/40021.jpg",
