@@ -10,17 +10,25 @@
     "banner_credit": "",
     "types": ["investigators"],
     "status": "beta",
-    "date_updated": "2026-04-23T17:29:50.2000793",
+    "date_updated": "2026-08-18T15:12:49.8773513",
     "generator": "Zoop 3.5, AHLCG plugin 9.0, Strange Eons 3.4\u03b13 (4421)"
   },
   "data": {
     "cards": [
       {
         "back_name": "Luther Kane",
-        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Guardian cards ([guardian]) level 0-4, Survivor ([survivor]) level cards 0-2, up to 5 other Rogue cards ([rogue]) level 0.\n<b>Deckbuilding Requirements</hdr> (do not count toward deck size)<hdr></b>: Ricochet, \"This is a Stickup\", 1 Random Basic Weakness.\n<b>Additional Setup</b>: You begin each game with Ricochet as an additional card in your opening hand.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Guardian cards ([guardian]) level 0-5, Survivor ([survivor]) level cards 0-2, up to 5 other Rogue cards ([rogue]) level 0.\n<b>Deckbuilding Requirements</hdr> (do not count toward deck size)<hdr></b>: Ricochet, \"This is a Stickup\", 1 Random Basic Weakness.\n<b>Additional Setup</b>: You begin each game with Ricochet as an additional card in your opening hand.",
         "code": "599affbe-ad0a-49fa-ad21-66ff1181cb6c",
         "deck_requirements": "size:30, card:46127bd6-9f0a-4174-9926-4d2d02d10c50, card:e5ba2ea8-2c78-4f39-8c06-39f59422d850, random:subtype:basicweakness",
         "deck_options": [
+          {
+            "level": {
+              "min": 1,
+              "max": 5
+            },
+            "not": true,
+            "trait": ["Melee"]
+          },
           {
             "faction": ["neutral"],
             "level": {
@@ -32,7 +40,7 @@
             "faction": ["guardian"],
             "level": {
               "min": 0,
-              "max": 4
+              "max": 5
             }
           },
           {
@@ -68,7 +76,7 @@
         "skill_intellect": 2,
         "skill_willpower": 3,
         "subname": "The \"Ranger\"",
-        "text": "You get +1 skill value for tests you perform, except during the mythos phase and your turn.\n[free] Spend an action. Ignore this cost if you have forfeited or lost an action this round. Cannot be used during an action: Perform an action as if it were your turn. (Limit once per round.)\n     \n[elder_sign] effect: +0. If it is not your turn, +2 instead and draw 1 card.",
+        "text": "You get +1 skill value during skill tests made in the enemy phase or during another investigator's turn.\n[free] Spend an action. Ignore this cost if you have forfeited or lost an action this round. Cannot be used during an action: Perform an action as if it were your turn. (Limit once per round.)\n     \n[elder_sign] effect: +0. If it is not your turn, +2 instead and draw 1 card.",
         "traits": "Hunter. Performer. Police?",
         "type_code": "investigator",
         "image_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_1.png",
@@ -78,10 +86,18 @@
       },
       {
         "back_name": "Charleston Briers",
-        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Seeker cards ([seeker]) level 0-5, <b><i>Ritual</i></b> cards level 0-2, Neutral cards level 0-5, up to five other level 0 events that \"<b>Investigate</b>\".\n<b>Deckbuilding Requirements</hdr> (do not count toward deck size)<hdr></b>: Unraveling the Cosmos, Peer Review, 1 Random Basic Weakness.\n<b>Deckbuilding Restrictions</b>: No <b><i>Science</i></b> cards level 1-5 or unique <b><i>Miskatonic</i></b> cards.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Seeker cards ([seeker]) level 0-5, <b><i>Ritual</i></b> cards level 0-2, Neutral cards level 0-5, up to ten other level 0 events that \"<b>Investigate</b>\".\n<b>Deckbuilding Requirements</hdr> (do not count toward deck size)<hdr></b>: Unraveling the Cosmos, Peer Review, 1 Random Basic Weakness.\n<b>Deckbuilding Restrictions</b>: No <b><i>Science</i></b> cards level 1-5.",
         "code": "0bb9b4eb-7483-4439-8cf9-c382c402403d",
         "deck_requirements": "size:30, card:ad156c40-4930-45cd-8f35-52a629432a55, card:b6a094e6-2c03-4f27-ac26-f22dd815cf4c, random:subtype:basicweakness",
         "deck_options": [
+          {
+            "level": {
+              "min": 1,
+              "max": 5
+            },
+            "not": true,
+            "trait": ["Science"]
+          },
           {
             "faction": ["neutral", "seeker"],
             "level": {
@@ -101,7 +117,7 @@
               "min": 0,
               "max": 0
             },
-            "limit": 5,
+            "limit": 10,
             "text_exact": ["Investigate."],
             "type": ["event"]
           }
@@ -128,6 +144,60 @@
         "thumbnail_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_2-thumb.png",
         "back_image_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_2b.png",
         "back_thumbnail_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_2b-thumb.png"
+      },
+      {
+        "back_flavor": "Kanzaki Saburo works a modest sushi stall near the dilapidated wharves of Kingsport, where sailors paid in silence, never asking where the drink came from. Few knew Saburo smuggled strange cargo through hidden coves. Jade idols, drowned manuscripts, and enough alcohol to drown a sailor threefold. By lanternlight, his hands moved with precision, filleting flesh to the sounds of the red tide against the pier. Lately, he'd felt more eyes on him than usual. Pale eyes. Bulging eyes. Watching from the harbor. They called his name, waiting for him to voyage home.",
+        "back_name": "Kanzaki Saburo",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Rogue cards ([rogue]) level 0-5, Neutral cards level 0-5, <b><i>Melee</i></b> cards level 0-2, and up to 5 other Survivor cards ([survivor]) level 0.\n<b>Deckbuilding Requirements</hdr> (do not count toward deck size)<hdr></b>: Deba Bocho, Eating with the Fishes, 1 random basic weakness.",
+        "code": "555e92b5-e374-4425-8dce-6b4cba2be252",
+        "deck_requirements": "size:30, card:1f5ce822-c141-4dea-be7e-2b78311074e1, card:6c1fbdf9-b8d5-4e54-bec4-9990ae9a876e, random:subtype:basicweakness",
+        "deck_options": [
+          {
+            "faction": ["neutral", "rogue"],
+            "level": {
+              "min": 0,
+              "max": 5
+            }
+          },
+          {
+            "level": {
+              "min": 0,
+              "max": 2
+            },
+            "trait": ["Melee"]
+          },
+          {
+            "faction": ["survivor"],
+            "level": {
+              "min": 0,
+              "max": 0
+            },
+            "limit": 5
+          }
+        ],
+        "deck_limit": 1,
+        "double_sided": true,
+        "faction_code": "rogue",
+        "flavor": "\"Every knife honors a different\ncut of the sea.\"",
+        "health": 8,
+        "is_unique": true,
+        "name": "Kanzaki Saburo",
+        "pack_code": "Misfits",
+        "position": 3,
+        "quantity": 1,
+        "sanity": 6,
+        "skill_agility": 4,
+        "skill_combat": 4,
+        "skill_intellect": 2,
+        "skill_willpower": 2,
+        "subname": "The Itamae",
+        "text": "Reduce the resource cost of the first <b><i>Melee</i></b> asset you play each round by 1 (2 instead if you defeated an enemy that round).\n     \n[reaction] When you would succeed an attack using a <b><i>Melee</i></b> asset: You deal +1 damage for this attack. Then, draw 1 card and shuffle that <b><i>Melee</i></b> asset into your deck.\n[elder_sign] effect: +1. Gain 1 resource for each <b><i>Melee</i></b> asset you control.",
+        "traits": "Criminal. Entrepreneur.",
+        "type_code": "investigator",
+        "image_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_3.png",
+        "thumbnail_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_3-thumb.png",
+        "back_image_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_3b.png",
+        "back_thumbnail_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_3b-thumb.png"
       },
       {
         "back_name": "Mihnea Ionesco",
@@ -238,7 +308,7 @@
       },
       {
         "code": "46127bd6-9f0a-4174-9926-4d2d02d10c50",
-        "cost": 0,
+        "cost": 1,
         "deck_limit": 1,
         "faction_code": "neutral",
         "flavor": "Just... Just as I planned! HA! HA! HA!",
@@ -249,7 +319,7 @@
         "quantity": 1,
         "restrictions": "investigator:599affbe-ad0a-49fa-ad21-66ff1181cb6c",
         "skill_wild": 1,
-        "text": "Luther Kane deck only. Fast. Play when you would fail a skill test on a <b><i>Firearm</i></b> asset.\nCancel this attack. Deal 1 damage to an enemy at your location or a connecting location. Draw 1 card and shuffle Ricochet into your deck.",
+        "text": "Luther Kane deck only. Fast. Play when you would fail a skill test on a <b><i>Firearm</i></b> asset.\nCancel this attack. Deal that attacks damage to an enemy at your location or a connecting location. Draw 1 card and shuffle Ricochet into your deck.",
         "traits": "Tactic. Blunder?",
         "type_code": "event",
         "image_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_6.jpg",
@@ -284,7 +354,7 @@
         "restrictions": "investigator:0bb9b4eb-7483-4439-8cf9-c382c402403d",
         "skill_intellect": 1,
         "skill_wild": 1,
-        "text": "Charleston Briers deck only.\n<b>Investigate.</b> Add your [willpower] value to your skill value for this investigation. If you succeed, instead of discovering clues, place up to 2 charges on <b><i>Ritual</i></b> assets controlled by investigators at your location.",
+        "text": "Charleston Briers deck only.\n<b>Investigate.</b> Add your [willpower] value to your skill value for this investigation. If you succeed, instead of discovering clues, place up to 3 charges on assets controlled by investigators at your location.",
         "traits": "Ritual. Science?",
         "type_code": "event",
         "image_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_8.jpg",
@@ -305,6 +375,43 @@
         "type_code": "treachery",
         "image_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_9.jpg",
         "thumbnail_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_9-thumb.jpg"
+      },
+      {
+        "code": "1f5ce822-c141-4dea-be7e-2b78311074e1",
+        "cost": 2,
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "is_unique": true,
+        "name": "Deba Bocho",
+        "pack_code": "Misfits",
+        "position": 10,
+        "quantity": 1,
+        "restrictions": "investigator:555e92b5-e374-4425-8dce-6b4cba2be252",
+        "skill_agility": 1,
+        "skill_wild": 1,
+        "text": "Kanzaki Saburo Deck Only. Fast.\n[action] Exhaust Deba Bocho: <b>Fight.</b> You get +2 [combat] for this attack. If you succeed, you may return Deba Bocho to your hand. Then, play a different <b><i>Melee</i></b> asset from your hand, reducing it's cost by 2.",
+        "traits": "Item. Melee. Weapon.",
+        "type_code": "asset",
+        "image_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_10.jpg",
+        "thumbnail_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_10-thumb.jpg"
+      },
+      {
+        "code": "6c1fbdf9-b8d5-4e54-bec4-9990ae9a876e",
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "flavor": "\"The hunger always returns. A need for something... bloodier.\"",
+        "illustrator": "Overhype Studios",
+        "name": "Eating with the Fishes",
+        "pack_code": "Misfits",
+        "position": 11,
+        "quantity": 1,
+        "restrictions": "investigator:555e92b5-e374-4425-8dce-6b4cba2be252",
+        "subtype_code": "weakness",
+        "text": "<b>Revelation</b> - Attach Eating with the Fishes to a <b><i>Weapon</i></b> you control. If you cannot, shuffle Eating with the Fishes back into your deck instead.\n     \nThe attached card cannot leave play.\n     \n<b>Forced</b> - At the end of your turn, take 1 direct horror or discard 1 card at random from your hand.\n<b>Forced</b> - After you defeat an enemy with the attached weapon, shuffle Eating with the Fishes back into your deck.",
+        "traits": "Curse. Madness.",
+        "type_code": "treachery",
+        "image_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_11.jpg",
+        "thumbnail_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_11-thumb.jpg"
       },
       {
         "code": "1b8bcb95-0ba1-4337-a8cf-f3ecbeacf598",
@@ -380,17 +487,12 @@
         "thumbnail_url": "https://samurai-kyo.github.io/TSoA-arkham-build/misfits/card-images/Misfits_15-thumb.jpg"
       }
     ],
-    "encounter_sets": [
-      {
-        "code": "Misfits_encounter",
-        "name": "Misfits"
-      }
-    ],
+    "encounter_sets": [],
     "packs": [
       {
         "code": "Misfits",
         "name": "Misfits",
-        "date_release": "2026-04-23",
+        "date_release": "2026-08-18",
         "icon_url": "file:/C:/Users/People/Documents/TSoA/Misfits-collection-icon.png"
       }
     ]
